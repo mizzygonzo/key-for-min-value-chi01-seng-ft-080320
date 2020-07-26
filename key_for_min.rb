@@ -6,4 +6,5 @@ if name_hash == {}
   nil 
 else 
   new1=name_hash.sort_by(&:last)
+  new1 
 end

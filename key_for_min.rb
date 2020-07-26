@@ -7,4 +7,5 @@ def key_for_min_value(name_hash)
   else 
     new1 = name_hash.sort_by(&:last)
     new1[0][0]
-    
+  end 
+end 
